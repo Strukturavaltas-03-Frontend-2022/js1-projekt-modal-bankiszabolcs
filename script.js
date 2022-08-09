@@ -9,6 +9,7 @@ const cancelButton = document.querySelector(".modal__button--negative");
 const openModal = function () {
   overLay.classList.remove("hidden");
   modal.classList.remove("hidden");
+  modal.focus();
 };
 
 const closeModal = function () {
